@@ -112,7 +112,7 @@
 }
 
 .map {
-    background-image: url('../public/map.png');
+    background-image: url('/../public/map.png');
     cursor: grab;
 }
 
