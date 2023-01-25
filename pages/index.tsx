@@ -29,7 +29,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker} color="blue" variant="outline">
+                              <Button className={styles.marker} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -45,7 +45,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Tenerife} color="blue" variant="outline">
+                              <Button className={styles.marker_Tenerife} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -60,7 +60,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Bahia} color="blue" variant="outline">
+                              <Button className={styles.marker_Bahia} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -68,6 +68,7 @@ export default function Home() {
                                   <Text size="xl" weight={500} className={styles.text}>
 
                                       February 1832.
+                                      {/* eslint-disable-next-line react/no-unescaped-entities */}
                                       Darwin explores Brazilian rain forests for the first time. "Here I first saw a tropical forest in all its sublime grandeur...I never experienced such intense delight."
                                     </Text>
                                   </Group>
@@ -77,13 +78,14 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Rio} color="blue" variant="outline">
+                              <Button className={styles.marker_Rio} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
                               <Group position="center">
                                   <Text size="xl" weight={500} className={styles.text}>
                                       February 1832.
+                                      {/* eslint-disable-next-line react/no-unescaped-entities */}
                                       Darwin spent months in Rio de Janeiro studying 'gaily coloured' flatworms and spiders. It was here that Darwin would find evidence against the beneficent design of nature.                          </Text>
                               <Image src={'/rio.jpg'} alt={'Rio de Janeiro'} width={179} height={270} />
                               </Group>
@@ -93,7 +95,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Montevideo} color="blue" variant="outline">
+                              <Button className={styles.marker_Montevideo} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -108,7 +110,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Valparaiso} color="blue" variant="outline">
+                              <Button className={styles.marker_Valparaiso} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -124,7 +126,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Lima} color="blue" variant="outline">
+                              <Button className={styles.marker_Lima} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -138,7 +140,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Sydney} color="blue" variant="outline">
+                              <Button className={styles.marker_Sydney} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -154,7 +156,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Hobart} color="blue" variant="outline">
+                              <Button className={styles.marker_Hobart} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -168,7 +170,7 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Sound} color="blue" variant="outline">
+                              <Button className={styles.marker_Sound} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -183,12 +185,13 @@ export default function Home() {
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
-                              <Button className={styles.marker_Cape} color="blue" variant="outline">
+                              <Button className={styles.marker_Cape} color="blue" variant="filled">
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
                               <Group position="center">
                                   <Text size="xl" weight={500} className={styles.text}>
+                                      {/* eslint-disable-next-line react/no-unescaped-entities */}
                                       Darwin had a positive impression of the town and Table Mountain during his two weeks stay in June 1836. He compared Cape Colony favorably to other parts of the southern hemisphere and concluded that it was a "little embryo England" that was developing. The Cape Colony was also influenced by the international intellectual and political currents of its time.
                                   </Text>
                               </Group>
