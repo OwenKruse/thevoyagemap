@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Draggable from 'react-draggable'
 import { HoverCard, Button, Text, Group } from '@mantine/core';
-import map from '../public/map.png'
+import map from './../public/map.png'
 export default function Home() {
   return (
     <div className={styles.container}>
