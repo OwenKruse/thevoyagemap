@@ -19,9 +19,6 @@ export default function Home() {
                       position: 'absolute',
                       width: '2560px',
                       height: '1080px',
-                      backgroundImage: 'url(/map.png)',
-
-
                   }
               }
               className={styles.map}
