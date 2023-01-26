@@ -9,6 +9,7 @@
 
 
 .marker {
+    color: black;
     position: absolute;
     background: #fff;
     border-radius: 50%;
@@ -119,3 +120,17 @@
 .map:active {
     cursor: grabbing;
 }
+
+.Title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.53);
+    padding: 10px;
+    border-radius: 10px;
+}
+

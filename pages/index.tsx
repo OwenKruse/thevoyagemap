@@ -24,10 +24,19 @@ export default function Home() {
               }
               className={styles.map}
               >
+                  <div className={styles.Title}>
+                  Interactive Map of The Voyage of The Beagle
+                      <div className={styles.Subtitle}>
+                            <Text size="xl" weight={500} >
+                                by Owen Kruse
+                            </Text>
+                      </div>
+                  </div>
                   <div>
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
                               <Button className={styles.marker} color="blue" variant="filled">
+                                  1
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
@@ -44,6 +53,7 @@ export default function Home() {
                       <HoverCard width={280} shadow="md">
                           <HoverCard.Target>
                               <Button className={styles.marker_Tenerife} color="blue" variant="filled">
+                                  2
                               </Button>
                           </HoverCard.Target>
                           <HoverCard.Dropdown>
